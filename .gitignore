@@ -1,0 +1,23 @@
+# Python virtual environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node.js and Next.js build output (at any project depth)
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+coverage/
+.vercel/
+*.tsbuildinfo
+
+# Local environment and credentials
+.env*
+*.pem
+
+# Operating system files and logs
+.DS_Store
+*.log

@@ -1,0 +1,13 @@
+{
+  "name": "aiot-dic2-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AIOT-DIC2 Interactive Machine Learning Dashboard",
+  "scripts": {
+    "dev": "npm --prefix dashboard run dev",
+    "build": "npm --prefix dashboard run build",
+    "start": "npm --prefix dashboard run start",
+    "lint": "npm --prefix dashboard run lint",
+    "export-data": ".venv/bin/python export_dashboard_data.py && cp dashboard_data.json dashboard/public/data/dashboard_data.json && cp dashboard_data.json dashboard/src/data/dashboard_data.json"
+  }
+}
